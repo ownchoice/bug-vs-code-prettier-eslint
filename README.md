@@ -2,6 +2,8 @@
 
 **Describe the bug**
 
+UPDATE: the command "fix all" works! VS Code is able to fix the ESLint problems with that commands. Yet "Format document" with the prettier-eslint extension still doesn't work.
+
 I'm working with TSX files for a Next.js project with Yarn. I'm not having this problem with other projects, even with the same Prettier and ESLint configuration files.
 
 The `prettier` and `eslint` commands work fine with `npx` and `yarn run` in the project's directory.
