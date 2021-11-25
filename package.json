@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest",
+    "clsx": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
+    "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx . --fix",
+    "format": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx)\" --write",
+    "format:check": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx)\" --check",
+    "format:list": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx)\" --list-different"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.0",
+    "typescript": "latest"
+  }
+}
