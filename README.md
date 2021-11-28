@@ -18,7 +18,7 @@ It only happens in this project and I don't know how to dig deeper in the extens
 
 Deleting `node_modules` and `yarn.lock` didn't fix it. Neither did restarting VS Code or my PC.
 
-UPDATE: the command "fix all" works! VS Code is able to fix the ESLint problems with that commands. Yet "Format document" with the prettier-eslint extension still doesn't work.
+UPDATE: the command "fix all" works! VS Code is able to fix the ESLint problems with that command. Yet "Format document" with the prettier-eslint extension still doesn't work (doesn't apply neither ESLint nor Prettier rules).
 
 **To Reproduce**
 
